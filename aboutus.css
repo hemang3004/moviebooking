@@ -1,0 +1,192 @@
+.navtop{
+    font-size: 1.3rem;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    height: 6rem;
+    text-transform: uppercase;
+}
+.navbar-light{
+    background-color: rgba(255,255,255,0.95) !important;
+}
+.navbar-nav{
+    margin-right: 2.3em;
+}
+.nav-link{
+    padding-right: 25% ;
+    padding-left: 5%;
+}
+#nav-link{
+    font-size: 2rem;
+    color: black !important;
+}
+.nav-spacing{
+    padding-right: 3rem  !important;
+} 
+
+.nav-login{
+    width: 100px;
+    border:1px #6c757d solid;
+    color:#6c757d;
+    text-decoration: none !important;
+}
+.nav-login:hover{
+    background-color: rgb(94, 170, 170) !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+.nav-col{
+    color: black !important;
+}
+.aboutus p{
+  font-size: 1.6rem;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  display: block;
+  margin-left: 9%;
+  margin-right: 9%;
+  font-weight: 500;
+}
+
+.aboutus h1{
+    padding-left: 45%;
+    padding-top: 2.5%;
+    padding-bottom: 2%;
+    margin-right: 9%;
+    text-transform:uppercase;
+    text-decoration: none !important;
+}
+body{
+    background: radial-gradient(rgba(10, 0, 20, 0.7),rgba(10, 0, 20, 0.6)),url('banner01.jpg'); 
+    background-attachment: fixed;
+    color: azure;
+}
+.BBX{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.BigBX img{
+   display: block;
+   max-width: 100%;
+   margin: auto;
+   height: 300px;
+   object-fit: cover;
+   object-position: center;
+   width: 300px;
+   padding-bottom: 0rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   border-radius: 2rem;   
+}
+.bx1 {    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    width: auto;
+    max-width: 50%;
+}
+.bx2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    width: auto;
+    max-width: 50%;
+    flex-wrap: wrap;
+} 
+.BigBX p{
+    display: block;
+    text-align: center; 
+}
+.BigBX h3{
+    text-align: center;
+}
+ .query h2{
+    text-align: center;
+}
+.name{
+    margin: 0px 30%;
+}
+.name input{
+    margin-left:10%;
+}
+.form  p{
+    display: inline-block;
+    margin-left: 10%;
+}
+.email{
+    margin: 0px 30%;
+}
+.email input{
+    margin-left:10%;
+}
+
+.txtarea textarea{
+    margin-left:12%;
+}
+@media screen and (max-width: 600px) {
+    .txtarea textarea {
+    width: 120%;
+    }
+}
+.txtarea{
+    margin: 0px 30%;
+    width:32%;
+    float: left;
+}
+textarea{
+    resize: vertical;
+    width: 100%;
+}
+.txtarea p{
+    margin-left: 12%;
+} 
+.submit{
+    border: 2px  rgb(201, 188, 188) solid;
+}
+.bton{
+    margin:0 47% ;
+    width: 6rem;
+    height: 2.6rem;
+    border-radius: 6px;
+    background:  #f8f9fa
+}
+@media screen and (max-width: 600px) {
+    .bton{
+    margin:0 44%;
+    }
+}
+
+.bton:hover {
+    background: rgb(3, 143, 143);
+    color: whitesmoke;
+    border: whitesmoke;
+}
+@media screen and (max-width: 600px) {
+    .BBX {
+    flex-direction: column-reverse;
+    }
+}
+.BigBX li{
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 4%;
+}
+.BigBX ul{
+    max-width: 100%;
+    width: 300px;
+    
+}
+.query{
+     width:95%;
+     margin-left:3.5%
+}
+textarea{
+    width:80%;
+    height:30% ;
+}

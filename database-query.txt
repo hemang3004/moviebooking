@@ -1,0 +1,26 @@
+create table movie(
+movieid int primary key,
+movie_name varchar(30),
+price int,
+availabe_seat int,
+date_time datetime );
+
+create table ticketdetails(
+movieid int,
+useremail varchar(50),
+bookedtickets int,
+PRIMARY KEY(movieid,useremail),
+foreign key (movieid) references movie(movieid)
+);
+
+create table users(
+email varchar(50) primary key,
+fullname varchar(100);
+contact_no numeric(10),
+password varchar(32)
+);
+
+create table userquery(
+email varchar(50) primary key,
+fullname varchar(30),
+query varchar(1000));

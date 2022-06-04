@@ -1,0 +1,224 @@
+.navtop{
+    font-size: 1.3rem;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    height: 6rem;
+    text-transform: uppercase;
+}
+.navbar-light{
+    background-color: rgba(255,255,255,0.95) !important;
+}
+.navbar-nav{
+    margin-right: 2.3em;
+}
+.nav-link{
+    padding-right: 25%;
+    padding-left: 5%;
+}
+#nav-link{
+    font-size: 2rem;
+    color: black !important;
+}
+.nav-spacing{
+    padding-right: 3rem  !important;
+}
+
+.nav-login{
+    width: 100px;
+    border:1px #6c757d solid;
+    color:#6c757d;
+    text-decoration: none !important;
+}
+.nav-login:hover{
+    background-color: rgb(94, 170, 170) !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+.nav-col{
+    color: black !important;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:62.5%;
+    margin-top: 0px;
+    background: radial-gradient(rgba(10, 0, 20, 0.6),rgba(10, 0, 20, 0.5)),url('banner01.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.container{
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+.banner-content {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 840px;
+} 
+.banner-content .title {
+    font-size: 55px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+.banner-content p {
+    font-size: 28px;
+    line-height: 1.4;
+    color: rgb(255, 255, 255);
+}
+@media (max-width: 660px) {
+    .banner-content .title 
+    {
+      font-size: 36px;
+    }
+    .banner-content p 
+    {
+      font-size: 20px;
+    }
+}
+
+/* css for movie animation  */
+
+#movies{
+    padding: 0rem 0 1.5rem 0;
+    background-color:  rgb(16, 16 ,64) ;
+}
+#upmovies{
+    padding: 5rem 0 1.5rem 0;
+    background-color:  rgb(23, 23, 82) ;
+}
+#movies h1{
+    display: inline-block;
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 0.09rem;
+    word-spacing: 0.3rem;
+    border-radius: 0.5rem;
+    margin: 2% 35% 4rem 35%;
+    
+}
+#upmovies h1{
+    display: inline-block;
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 0.09rem;
+    word-spacing: 0.3rem;
+    border-radius: 0.5rem;
+    margin: 0 35% 4rem 35%;
+    
+}
+.moviebox
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.moviebox img{
+   display: block;
+   margin: auto;
+   height: 400px;
+   object-fit: cover;
+   object-position: center;
+   width: 300px;
+   padding-bottom: 0rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   border-radius: 2rem;
+}
+.image{
+    position: relative;
+    margin:0 1rem;
+}
+
+.btn1{
+    display: inline-block;
+    padding: 0.9rem;
+    text-decoration: none;
+    color: blanchedalmond;
+    background-color:black ;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.btn1:hover{
+    background-color: rgb(3, 143, 143);
+    text-decoration: none;
+    color:white;
+}
+.boxcontent{
+    position: absolute;
+    top: 45%;
+    left: 10%; 
+    transform: translate(-50%,-50%);
+    text-align: center;
+     color: floralwhite;
+     opacity: 0;
+     z-index: 2;
+     transition:all 0.5s ease-in-out;
+     border-radius: 2rem;
+}
+
+.image::after{
+    content: "";  
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(58, 56, 56, 0.877);
+    opacity: 0;
+    z-index: 1;
+    border-radius: 2rem;
+}
+
+.image:hover::after{
+    opacity: 1;
+    transform: scaleY(1);
+}
+.image:hover .boxcontent {
+    opacity: 1;
+    top:60%;
+    left:50%;
+    
+} 
+.boxcontent h3{
+    padding-bottom: 7rem;
+    font-size: 2rem;
+}
+.boxcontent a{
+    margin-bottom:50px ;
+}
+.movie{
+    margin-bottom: 2rem;
+}
+
+.footer{
+    background-color: #263238;
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+.social-media-links i{
+    margin: 1rem;
+}
+.fa-facebook:hover{
+    color: #3b5998;
+}
+.fa-twitter:hover{
+    color: #1c9deb;
+}
+.fa-instagram:hover{
+    color: #dd3f5c;
+}
+a, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}

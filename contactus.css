@@ -1,0 +1,183 @@
+.navtop{
+    font-size: 1.3rem;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    height: 6rem;
+    text-transform: uppercase;
+}
+.navbar-light{
+    background-color: rgba(255,255,255,0.95) !important;
+}
+.navbar-nav{
+    margin-right: 2.3em;
+}
+.nav-link{
+    padding-right: 25%;
+    padding-left: 5%;
+}
+#nav-link{
+    font-size: 2rem;
+    color: black !important;
+}
+.nav-spacing{
+    padding-right: 3rem  !important;
+} 
+.citypadding{
+    padding-right: 2.8em  !important;
+}
+.nav-login{
+    width: 100px;
+    border:1px #6c757d solid;
+    color:#6c757d;
+    text-decoration: none !important;
+}
+.nav-login:hover{
+    background-color: rgb(94, 170, 170) !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+.nav-col{
+    color: black !important;
+}
+body{
+    background: radial-gradient(rgba(10, 0, 20, 0.7),rgba(10, 0, 20, 0.6)),url('banner01.jpg'); 
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.contact{
+    position: relative;
+    min-height:100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.container1 .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container1 .contactinfo .box{
+    position: relative;
+    pad: 20px 0;
+    display: flex;
+}
+.container1 .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container1 .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container1 .contactinfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactform .inputbox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width: 991px)
+{
+    .contact{
+        padding: 50px;
+    }
+    .container1{
+        flex-direction: column;
+    }
+    .container1 .contactinfo{
+        margin-bottom: 40px;
+    }
+    .container1 .contactinfo,.contactform{
+        width: 100%;
+    }
+}
+.footer{
+    background: #263238;
+    color: #f4f4f4 ;
+    padding: 2rem;
+    text-align: center;
+}
+.social-media-links i{
+    margin: 1rem;
+    color: #f4f4f4;
+    font-size: 2.5rem;
+}
+.fa-facebook:hover{
+    color: #3b5998;
+}
+.fa-twitter:hover{
+    color: #1c9deb;
+}
+.fa-instagram:hover{
+    color: #dd3f5c;
+}
+a, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+    

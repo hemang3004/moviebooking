@@ -1,0 +1,83 @@
+
+.navtop{
+    font-size: 1.15rem;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background: rgb(230 230 230)  !important;
+}
+.navbar-nav{
+    margin-right: 2.3em;
+}
+.nav-link{
+    padding-right: 25%;
+    padding-left: 5%;
+}
+#nav-link{
+    font-size: 2rem;
+    color: black !important;
+}
+.nav-spacing{
+    padding-right: 3rem  !important;
+}
+.citypadding{
+    padding-right: 2.8em  !important;
+}
+.nav-login{
+    width: 100px;
+    border:1px #6c757d solid;
+    color:#6c757d;
+    text-decoration: none !important;
+}
+.nav-login:hover{
+    background-color: rgb(94, 170, 170) !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.navtop{
+    font-size: 1.15rem;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background: rgb(230 230 230)  !important;
+}
+.navbar-nav{
+    margin-right: 2.3em;
+}
+.nav-link{
+    padding-right: 25%;
+    padding-left: 5%;
+}
+#nav-link{
+    font-size: 2rem;
+    color: black !important;
+}
+.nav-spacing{
+    padding-right: 3rem  !important;
+}
+.citypadding{
+    padding-right: 2.8em  !important;
+}
+.nav-login{
+    width: 100px;
+    border:1px #6c757d solid;
+    color:#6c757d;
+    text-decoration: none !important;
+}
+.nav-login:hover{
+    background-color: rgb(94, 170, 170) !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.trailer{
+    margin: 10% 25% 5% 25%;
+    position: relative;
+}
+@media only screen and (max-width: 600px) {
+     .trailer{
+    width: 534px;
+      margin: 10% 2% 2% 2%;
+    }
+}

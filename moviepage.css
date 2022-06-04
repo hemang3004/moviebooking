@@ -1,0 +1,224 @@
+.navtop{
+    font-size: 1.3rem;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    height: 6rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar-light{
+    background-color: rgba(255,255,255,0.95) !important;
+}
+.navbar-nav{
+    margin-right: 2.3em;
+}
+.nav-link{
+    padding-right: 25%;
+    padding-left: 5%;
+}
+#nav-link{
+    font-size: 2rem;
+    color: black !important;
+}
+.nav-spacing{
+    padding-right: 3rem  !important;
+}
+
+   
+.citypadding{
+    padding-right: 2.8em  !important;
+}
+.nav-login{
+    width: 100px;
+    border:1px #6c757d solid;
+    color:#6c757d;
+    text-decoration: none !important;
+}
+.nav-login:hover{
+    background-color: rgb(94, 170, 170) !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+.nav-col{
+    color: black !important;
+}
+#content{
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    border-radius: 20px;
+    color: black;
+}
+.image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 0%  !important;
+    margin-right: 0% !important;
+    max-width: 100%;
+    justify-content: space-around;
+}
+.info{
+    display: flex;
+    flex-direction: column;    
+}
+
+.movieinfo{
+    font-size: 1.3em;
+    color: rgba(150, 150, 150, 0.863);
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.title h2{
+    font-size: 2.8rem;
+    text-align: center;
+    color: rgba(150, 150, 150, 0.863);
+    letter-spacing: 0.2rem;
+}
+.icon h2{
+    text-align: center;
+    color: rgba(150, 150, 150, 0.863);
+}
+.movieinfo a{
+    text-decoration: none;
+    color: rgb(95, 95, 94);
+}
+.movieinfo a:hover{
+    text-decoration: underline;
+}
+i{
+    color: rgb(3, 143, 143);
+}
+input[type="button"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgba(150, 150, 150);
+    padding: 14px 40px;
+    outline: none;
+    color: rgba(150, 150, 150);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 1rem;
+}
+input[type="button"]:hover {
+    background: rgb(3, 143, 143);
+    color: whitesmoke;
+    border: whitesmoke;
+}
+.img1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+
+.fit{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 2;
+}
+.fit a{
+    font-size: 1.2rem;
+    display: inline-block;
+    text-decoration: none;
+    color: cornsilk;
+    padding:1.5rem 2rem;
+    border-radius: 20px;
+    
+}
+.fit i{
+    color: cornsilk;
+}
+.boxY p{
+    display: block;
+    width: 500px;
+    height: 400px;
+    padding-top: 7.5rem;
+    padding-left: 5rem;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    color: rgba(150, 150, 150, 0.863);
+}
+.boxX img{
+    display: inline-block;
+    height: 450px;
+    width: 500px;
+    border-radius: 10px;
+    z-index: 0;
+}
+.boxX::after{
+    content: "";
+    display: block; 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity:0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.boxX:hover .fit{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.39); 
+    border-radius: 30px;
+}
+.boxX{
+    position: relative;
+}
+.boxX:hover::after{
+    background-color: rgba(0, 0, 0, 0.089);
+    opacity: 1;
+}
+.footer{
+    background: #263238;
+    color: #f4f4f4 ;
+    padding: 2rem;
+    text-align: center;
+}
+.social-media-links i{
+    margin: 1rem;
+    color: #f4f4f4;
+    font-size: 2.5rem;
+}
+.fa-facebook:hover{
+    color: #3b5998;
+}
+.fa-twitter:hover{
+    color: #1c9deb;
+}
+.fa-instagram:hover{
+    color: #dd3f5c;
+}
+a, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+@media only screen and (max-width: 600px) {
+    .title h2 {
+      font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .icon h2 {
+      font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .img1 {
+      margin-left: 1rem !important;
+    }
+}
